@@ -12,7 +12,7 @@ body, html {
     margin-top: 50px;
 }
 
-.login {
+.login_register {
     width: 400px;
     height: 310px;
     background-color: aliceblue;
@@ -22,7 +22,7 @@ body, html {
     transform: translate(-50%, -50%);
 }
 
-.login .title {
+ .title {
     height: 60px;
     background: url(/assets/images/login_title.png) no-repeat center;
 }
@@ -34,4 +34,22 @@ body, html {
 .links {
     display: flex;
     justify-content: flex-end;
+}
+.links a{
+    font-size: 12px;
+}
+.register{
+    display: none;
+}
+.layui-form-item {
+    position: relative;
+   
+}
+.layui-icon{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+.layui-input {
+    padding-left: 32px;
 }
